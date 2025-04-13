@@ -6,15 +6,15 @@ public class Book {
     private String title;
     private String author;
     private String genre;
-    private String availability;
+    private String copies;
 
-    public Book(String book_Id, String title,String author,String genre, String availability){
+    public Book(String book_Id, String title,String author,String genre, String copies){
 
         this.book_Id=book_Id;
         this.title=title;
         this.author=author;
         this.genre=genre;
-        this.availability=availability;
+        this.copies = copies;
     }
 
     public String getBook_Id() {
@@ -49,12 +49,12 @@ public class Book {
         this.genre = genre;
     }
 
-    public String getAvailability() {
-        return availability;
+    public String getCopies() {
+        return copies;
     }
 
-    public void setAvailability(String availability) {
-        this.availability = availability;
+    public void setCopies(String copies) {
+        this.copies = copies;
     }
 }
 

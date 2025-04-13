@@ -4,15 +4,15 @@ public class IssueRecord {
 
     private String Issue_Id;
     private String book_Id;
-    private String Member_id;
+    private String Member_Id;
     private String Issue_Date;
     private String Return_Date;
     private String Status;
 
-    public IssueRecord(String issue_Id,String book_Id, String member_id,String issue_Date,String return_Date,String status) {
+    public IssueRecord(String issue_Id,String book_Id, String member_Id,String issue_Date,String return_Date,String status) {
         this.Issue_Id=issue_Id;
         this.book_Id=book_Id;
-        this.Member_id=member_id;
+        this.Member_Id=member_Id;
         this.Issue_Date=issue_Date;
         this.Return_Date=return_Date;
         this.Status=status;
@@ -43,12 +43,12 @@ public class IssueRecord {
         Issue_Date = issue_Date;
     }
 
-    public String getMember_id() {
-        return Member_id;
+    public String getMember_Id() {
+        return Member_Id;
     }
 
-    public void setMember_id(String member_id) {
-        Member_id = member_id;
+    public void setMember_Id(String member_Id) {
+        Member_Id = member_Id;
     }
 
     public String getBook_Id() {
