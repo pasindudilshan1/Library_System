@@ -6,13 +6,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-
 public class Main extends Application {
     @Override
-
     public void start(Stage stage) throws Exception {
-        var fxml = getClass().getResource("/com/example/library_system/book.fxml");
+        var fxml = getClass().getResource("/com/example/library_system/books.fxml");
 
         if (fxml == null) {
             throw new RuntimeException("FXML file not found! Check the path and file name.");
@@ -25,7 +22,6 @@ public class Main extends Application {
         stage.setTitle("Library System");
         stage.show();
     }
-
 
     public static void main(String[] args) {
         launch();
