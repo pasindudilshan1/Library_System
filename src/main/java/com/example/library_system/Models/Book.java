@@ -6,9 +6,9 @@ public class Book {
     private String title;
     private String author;
     private String genre;
-    private String copies;
+    private int copies;
 
-    public Book(String book_Id, String title,String author,String genre, String copies){
+    public Book(String book_Id, String title, String author, String genre, int copies){
 
         this.book_Id=book_Id;
         this.title=title;
@@ -49,11 +49,11 @@ public class Book {
         this.genre = genre;
     }
 
-    public String getCopies() {
+    public int getCopies() {
         return copies;
     }
 
-    public void setCopies(String copies) {
+    public void setCopies(int copies) {
         this.copies = copies;
     }
 }
