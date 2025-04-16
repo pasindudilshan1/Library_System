@@ -23,7 +23,7 @@
     <TextField fx:id="copies" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
 
     <Button text="Add Book to the System" onAction="#addBook" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
-    <Button text="Clear filds" onAction="#clear" GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+
 
 
 </GridPane>
