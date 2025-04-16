@@ -12,15 +12,15 @@
           fx:controller="com.example.library_system.Controller.BookController"
           alignment="center" hgap="10" vgap="10">
 <Label text="Book Identity" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-    <TextField fx:id="book_Id" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+    <TextField fx:id="book_IdField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
     <Label text="Book Title" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
-    <TextField fx:id="title" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <TextField fx:id="titleField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
     <Label text="Author of Book" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
-    <TextField fx:id="author" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <TextField fx:id="authorField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
     <Label text="Genre of Book" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
-    <TextField fx:id="genre" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+    <TextField fx:id="genreField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
     <Label text="Copies of Book" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
-    <TextField fx:id="copies" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+    <TextField fx:id="copiesField" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
 
     <Button text="Add Book to the System" onAction="#addBook" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
 
