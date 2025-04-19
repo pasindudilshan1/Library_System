@@ -7,23 +7,21 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+
     @Override
     public void start(Stage stage) throws Exception {
-        var fxml = getClass().getResource("/com/example/library_system/books.fxml");
-
+        var fxml = getClass().getResource("/com/example/library_system/main.fxml");
         if (fxml == null) {
-            throw new RuntimeException("FXML file not found! Check the path and file name.");
+            throw new RuntimeException("Main FXML file not found!");
         }
 
-        FXMLLoader fxmlLoader = new FXMLLoader(fxml);
-        Parent root = fxmlLoader.load();
+        Parent root = FXMLLoader.load(fxml);
         Scene scene = new Scene(root);
+
         stage.setScene(scene);
         stage.setTitle("Library System");
+        stage.setFullScreen(true);
         stage.show();
     }
 
-    public static void main(String[] args) {
-        launch();
-    }
 }
