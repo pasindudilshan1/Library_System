@@ -8,25 +8,26 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.DatePicker?>
+
 <GridPane xmlns:fx="http://javafx.com/fxml/1"
           fx:controller="com.example.library_system.Controller.MemberController"
           alignment="center" hgap="10" vgap="10">
     <Label text="Member Identity" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-    <TextField fx:id="member_Id" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+    <TextField fx:id="member_IdField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
     <Label text="First name of the Member" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
-    <TextField fx:id="f_name" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <TextField fx:id="f_nameField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
     <Label text="Last name of the member" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
-    <TextField fx:id="l_name" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <TextField fx:id="l_nameField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
     <Label text="E-mail of the member" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
-    <TextField fx:id="email" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+    <TextField fx:id="emailField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
     <Label text="Contact no. of member" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
-    <TextField fx:id="phone" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+    <TextField fx:id="phoneField" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
 
     <Label text="Address of member" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
-    <TextField fx:id="address" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+    <TextField fx:id="addressField" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
 
     <Button text="Add Member to the System" onAction="#addMember" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
-    <Button text="Clear filds" onAction="#clear" GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+
 
 
 </GridPane>
