@@ -43,16 +43,8 @@ mvn test
 
 ---
 
-## 3. Writing Tests
 
-- Use **JUnit 5**.
-- Place tests in `src/test/java` mirroring the package structure.
-- Aim for meaningful unit tests for business logic (e.g., DAO CRUD operations).
-- For database tests, use an in-memory H2 database profile. Provide a sample `application-test.properties` if needed.
-
----
-
-## 4. Issue Management
+## 3. Issue Management
 
 - **Bug reports**: Prefix title with `BUG:`
 - **Feature requests**: Prefix title with `FEATURE:`
@@ -62,7 +54,7 @@ Before opening a new issue, search existing issues to avoid duplicates.
 
 ---
 
-## 5. Pull Request Process
+## 4. Pull Request Process
 
 1. Ensure your branch is up to date:
    ```bash
@@ -86,13 +78,13 @@ The maintainers will review, leave feedback, and merge when ready.
 
 ---
 
-## 6. Code of Conduct
+## 5. Code of Conduct
 
 Please respect our [Code of Conduct](CODE_OF_CONDUCT.md) in all interactions.
 
 ---
 
-## 7. Contact
+## 6. Contact
 
 For questions or collaboration ideas, reach out via GitHub Discussions or open an issue.
 
