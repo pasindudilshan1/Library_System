@@ -94,7 +94,7 @@ String pass = "<your-db-password>";
 
 ## 🤝 Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](Code of Conduct.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [Code of Conduct.md](Code of Conduct.md).
 
 ---
 
