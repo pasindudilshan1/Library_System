@@ -4,10 +4,10 @@ A JavaFX-based library management application to manage books, members, and issu
 
 ## 🔧 Features
 
-- Add, edit, delete books
+- Add books
 - Register and manage members
 - Issue and return books with status tracking
-- Search by book title, author, genre, or member name
+-Updating soon...
 
 ## 🛠️ Prerequisites
 
