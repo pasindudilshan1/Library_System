@@ -12,17 +12,16 @@
           fx:controller="com.example.library_system.Controller.IssueController"
           alignment="center" hgap="10" vgap="10">
     <Label text="Issue Identity " GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-    <TextField fx:id="issue_Id" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+    <TextField fx:id="issue_IdField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
     <Label text="Book Identity" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
-    <TextField fx:id="book_Id" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    <TextField fx:id="book_IdField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
     <Label text="Member Identity" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
-    <TextField fx:id="member_Id" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+    <TextField fx:id="member_IdField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
     <Label text="Issue Date" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
-    <TextField fx:id="issue_Date" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+    <DatePicker fx:id="issue_DateField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
     <Label text="Return Date" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
-    <TextField fx:id="return_Date" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
-    <Label text="Status of Issue" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
-    <TextField fx:id="status" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+    <DatePicker fx:id="return_DateField" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
 
 
     <Button text="Add Issue to the System" onAction="#addIssueRecord" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
