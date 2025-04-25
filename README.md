@@ -82,7 +82,7 @@ Place this script in `sql/library_schema.sql` for version control.
 
 ## 📝 Configuration
 
-Edit the database connection in `src/main/java/.../DBConnection.java`:
+Edit the database connection in `src/main/java/com/example/library_system/Database/DBConnection.java `:
 
 ```java
 String url = "jdbc:mysql://localhost:3306/library_db";
