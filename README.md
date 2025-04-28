@@ -82,12 +82,13 @@ Place this script in `sql/library_schema.sql` for version control.
 
 ## 📝 Configuration
 
-Edit the database connection in `src/main/java/com/example/library_system/Database/DBConnection.java `:
+Edit the database connection in `src/main/resources/application.properties `:
 
 ```java
-String url = "jdbc:mysql://localhost:3306/library_db";
-String user = "<your-db-username>";
-String pass = "<your-db-password>";
+db.url=jdbc:mysql://localhost:3306/library_db
+db.username=root
+db.password=""
+
 ```
 
 ---
