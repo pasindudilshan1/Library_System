@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com/example/library_system/Controller/view_book.java"
+            prefHeight="400.0" prefWidth="600.0">
+    <TableView fx:id="tableview" layoutX="10.0" layoutY="10.0"  prefHeight="280.0" prefWidth="380.0">
+        <columns>
+            <TableColumn fx:id="book_IdField" text="Book ID" prefWidth="100.0"> </TableColumn>
+            <TableColumn fx:id="titleField" text="Book Title" prefWidth="180"/>
+            <TableColumn fx:id="authorField" text="Author of Book" prefWidth="180"/>
+            <TableColumn fx:id="genreField" text="Genre of Book" prefWidth="180"/>
+            <TableColumn fx:id="copiesField" text="Copies of Book" prefWidth="100"/>
+
+        </columns>
+    </TableView>
+
+</AnchorPane>
